@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - LobbyManager
     - PlayerInput
     - PlayerMovement
+    - Rotator
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineComposer
@@ -112,6 +113,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -122,10 +125,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1656}
     - Class: 114
       Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 1702}
     - Class: 114
       Script: {instanceID: 1728}
     - Class: 114
@@ -138,6 +145,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2912}
     - Class: 114
       Script: {instanceID: 3002}
+    - Class: 114
+      Script: {instanceID: 3042}
     - Class: 114
       Script: {instanceID: 3560}
     - Class: 114
@@ -159,6 +168,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5572}
     - Class: 114
+      Script: {instanceID: 5732}
+    - Class: 114
       Script: {instanceID: 6038}
     - Class: 114
       Script: {instanceID: 6460}
@@ -170,7 +181,25 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6934}
     - Class: 114
       Script: {instanceID: 7160}
+    - Class: 114
+      Script: {instanceID: 27420}
+    - Class: 114
+      Script: {instanceID: 27460}
+    - Class: 114
+      Script: {instanceID: 27494}
+    - Class: 114
+      Script: {instanceID: 27862}
+    - Class: 114
+      Script: {instanceID: 27864}
+    - Class: 114
+      Script: {instanceID: 27866}
+    - Class: 114
+      Script: {instanceID: 27868}
+    - Class: 114
+      Script: {instanceID: 28140}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -183,6 +212,8 @@ ScriptsOnlyBuild:
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -246,17 +277,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
       Script: {instanceID: 1702}
     - Class: 114
       Script: {instanceID: 2536}
     - Class: 114
       Script: {instanceID: 2656}
     - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
       Script: {instanceID: 2912}
     - Class: 114
       Script: {instanceID: 4342}
     - Class: 114
+      Script: {instanceID: 4598}
+    - Class: 114
       Script: {instanceID: 5130}
+    - Class: 114
+      Script: {instanceID: 5168}
     - Class: 114
       Script: {instanceID: 5572}
     - Class: 114
@@ -269,7 +308,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6776}
     - Class: 114
       Script: {instanceID: 7120}
+    - Class: 114
+      Script: {instanceID: 27862}
+    - Class: 114
+      Script: {instanceID: 27864}
+    - Class: 114
+      Script: {instanceID: 27866}
+    - Class: 114
+      Script: {instanceID: 27868}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -282,6 +331,14 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
