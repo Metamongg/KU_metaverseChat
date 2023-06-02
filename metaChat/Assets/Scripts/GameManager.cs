@@ -68,9 +68,13 @@ public class GameManager : MonoBehaviourPunCallbacks, IPunObservable
         // 위치 y값은 0으로 변경
         randomSpawnPos.y = 0f;
 
-        // 네트워크 상의 모든 클라이언트들에서 생성 실행
-        // 단, 해당 게임 오브젝트의 주도권은, 생성 메서드를 직접 실행한 클라이언트에게 있음
-        PhotonNetwork.Instantiate(playerPrefab.name, randomSpawnPos, Quaternion.identity);
+        // 방에 참가한 후에만 게임 오브젝트 생성
+        if (PhotonNetwork.InRoom)
+        {
+            // 네트워크 상의 모든 클라이언트들에서 생성 실행
+            // 단, 해당 게임 오브젝트의 주도권은, 생성 메서드를 직접 실행한 클라이언트에게 있음
+            PhotonNetwork.Instantiate(playerPrefab.name, randomSpawnPos, Quaternion.identity);
+        }
     }
 
     // 점수를 추가하고 UI 갱신
