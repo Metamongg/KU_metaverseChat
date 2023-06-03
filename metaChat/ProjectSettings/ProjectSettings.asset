@@ -774,7 +774,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Collab: 0
+    Game Performance: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -788,11 +794,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 3c517a78-e3ac-4b35-822f-e4362d93f803
+  cloudProjectId: 52f47988-3ba0-4087-891d-83cb47d0d086
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Zombie
-  organizationId: damdori3
+  projectName: Zombie (2)
+  organizationId: duddnd2
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   playerDataPath: 

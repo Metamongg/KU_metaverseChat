@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 2322885825254222683}
   - component: {fileID: 2322885825254222660}
   - component: {fileID: 2322885825254222661}
+  - component: {fileID: 6162812375512517298}
   m_Layer: 0
   m_Name: Player Character
   m_TagString: Player
@@ -289,6 +290,7 @@ MonoBehaviour:
   rotateAxisName: Horizontal
   fireButtonName: Fire1
   reloadButtonName: Reload
+  clickButton: click
 --- !u!114 &2322885825254222680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,3 +386,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 236e17a789a218448970100b8d89d205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6162812375512517298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2322885825254190577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1d05e7a3296dc8469a9ece315bd33aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: "\uACE0\uC815\uD60423"
+  playerDepartment: "\uCEF4\uD4E8\uD130\uACF5\uD559\uBD8020"
+  playerIntro: qwerty
+  isChatting: 0
